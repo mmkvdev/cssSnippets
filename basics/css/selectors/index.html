@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors</title>
+        <style>
+            p {
+                text-align: center;
+                color: red;
+            }
+
+            #road-house {
+                background-color: aquamarine;
+                color: blue;
+            }
+
+            p.class {
+                background-color:blueviolet;
+                color: black;
+            }
+
+            p.unique {
+                font-size: 40px;
+                text-align: center;
+            }
+
+            /* universal selector */
+            * {
+                background-color:gold;
+            }
+
+            /* grouping selectors */
+            h1, p {
+                background-color: beige;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Element Selector</p>
+        <p id="road-house">ID selector</p>
+        <p class="class">Class Selector</p>
+        <h1 class="class">Specific Class Selector</h1>
+        <p class="class unique">html elements can also refer to more than one class</p>
+    </body>
+</html>

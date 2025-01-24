@@ -1,0 +1,10 @@
+/* element selector */
+p {
+    text-align: center;
+    color: red;
+}
+
+/* id selector */
+#road-house {
+    background-color: aquamarine;
+}
