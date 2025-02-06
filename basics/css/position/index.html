@@ -1,0 +1,70 @@
+<!-- CSS Layout -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <div>
+            <h1>position: static</h1>
+            <p>
+                all HTML elements are statically positioned by default; 
+                it is not positioned in any special way; 
+                it is always positioned according to the normal flow of the page
+            </p>
+            <div class="static">This div element has position: static</div>
+        </div>
+        <hr>
+        <div>
+            <h1>position: relative</h1>
+            <p>
+                element with relative position will be positioned relative to its normal position
+            </p>
+            <div class="relative">This div element has position: relative</div>
+            <span>this span tag won't be affected by the relative positioning spacing</span>
+        </div>
+        <hr>
+        <div>
+            <h1>position: fixed</h1>
+            <p>
+                element with fixed position will be positioned relative to the view port, which
+                means it always stays in the same place even if the page is scrolled; this doesn't leave
+                a gap on the page where it'd normally have been located.
+            </p>
+            <div class="fixed">This div element has position: fixed</div>
+        </div>
+        <hr>
+        <div>
+            <h1>position: absolute</h1>
+            <p>
+                element with absolute position, is positioned relative to it's nearest
+                positioned ancestor
+            </p>
+            <div class="relative">
+                <div class="absolute">This div element has position: absolute</div>
+                <div class="absolute-1">This div element has position: absolute</div>
+            </div>
+        </div>
+        <div>
+            <h1>position: sticky</h1>
+            <p>
+                element with sticky position, is positioned based on user's scroll
+                position. it toggles between position: relative and position: fixed depending on 
+                scroll position. It is positioned `relative` until a given offset condition is met in the view port
+                and then it sticks in that place (like position: `fixed`).
+            </p>
+            <div class="sticky">
+                I am gonna stick to my basics !
+            </div>
+            <div style="padding-bottom: 2000px;">
+                <p>Paragraph 1</p>
+                <p>Paragraph 2_1</p>
+                <p>Paragraph 2_1</p>
+                <p>Paragraph 2_1</p>
+                <p>Paragraph 2_1</p>
+                <p>Paragraph 2_1</p>
+                <p>Paragraph 2_1</p>
+            </div>
+        </div>
+    </body>
+</html>
