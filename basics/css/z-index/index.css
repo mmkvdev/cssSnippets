@@ -1,0 +1,60 @@
+.parent {
+    position: relative;
+}
+
+.spacing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.a {
+    background-color: green;
+    z-index: 1;
+}
+
+.b {
+    background-color: rgb(137, 45, 45);
+    z-index: 2;
+}
+
+img {
+    position: absolute;
+    z-index: -1;
+    height: 30px;
+}
+
+p {
+    color: white;
+    width: 50px;
+}
+
+.container {
+    position: relative;
+}
+
+.black-box {
+    position: relative;
+    z-index: 1;
+    top: 40px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.gray-box {
+    position: absolute;
+    z-index: 3;
+    border: 2px solid red;
+    top: 150px;
+    height: 50px;
+}
+
+.green-box {
+    position: absolute;
+    z-index: 3;
+    border: 2px solid green;
+    top: 0;
+}
