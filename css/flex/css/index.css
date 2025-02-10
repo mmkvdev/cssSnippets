@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: unset;
+    border: 5px solid green;
+    height: 500px;
+}
+
+.item_1 {
+    order: 1;
+    flex: 1;
+    border: 2px solid red;
+}
+
+.item_2 {
+    order: 2;
+    flex: 3;
+    border: 2px solid purple;
+}
+
+.item_3 {
+    order: 3;
+    flex: 4;
+    border: 2px solid palegreen;
+}
